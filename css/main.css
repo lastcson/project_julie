@@ -1,16 +1,14 @@
-html,body{
-  margin: 0;
-  padding: 0;
-  overflow-x: hidden;
+.navbar{
+  background-color: #AEC6CF;
 }
 
-body{
-  background-image: url('../images/Corgi_Logo.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
+li{
+  margin:10px;
+  font-weight: bold;
+  font-size: 25px;
+  text-decoration: none;
 }
+<<<<<<< HEAD
 
 .container{
 
@@ -37,4 +35,8 @@ body{
 
 #pricing{
 
+=======
+a{
+  text-decoration: none;
+>>>>>>> eb087ee309c4ffa86f7cce2fe0963c328eebc7b3
 }
