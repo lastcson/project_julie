@@ -1,0 +1,13 @@
+.navbar{
+  background-color: #AEC6CF;
+}
+
+li{
+  margin:10px;
+  font-weight: bold;
+  font-size: 25px;
+  
+}
+a{
+  text-decoration: none;
+}
