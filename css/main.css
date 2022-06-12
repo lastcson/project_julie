@@ -1,0 +1,36 @@
+html,body{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+body{
+  background-image: url('../images/Corgi_Logo.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.container{
+
+}
+
+.box{
+}
+
+#corgiheader{
+  height: 60vh;
+}
+
+.carousel{
+  width: 100%;
+}
+
+.pic{
+  height: 80vh;
+}
+
+#pricing{
+
+}
