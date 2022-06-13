@@ -1,20 +1,37 @@
-.navbar{
-  background-color: #AEC6CF;
+html, body{
+  margin: 0;
+  padding: 0;
+  overflow-x: unset;
 }
 
-li{
-  margin:10px;
+*{
+  /*border: 1px solid red !important;*/
+}
+
+body{
+  background-image: url('../images/Corgi_Logo.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.navbar{
+  background-color: #cff4fc;
+}
+
+.nav_Items{
   font-weight: bold;
-  font-size: 25px;
+  font-size: 22px;
   text-decoration: none;
 }
-<<<<<<< HEAD
 
-.container{
-
+.nav_Link:hover{
+  text-shadow: 0px 0px 5px #ffc600;
 }
 
 .box{
+  /*border: solid red;*/
 }
 
 #corgiheader{
@@ -35,8 +52,4 @@ li{
 
 #pricing{
 
-=======
-a{
-  text-decoration: none;
->>>>>>> eb087ee309c4ffa86f7cce2fe0963c328eebc7b3
 }
