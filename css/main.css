@@ -36,8 +36,9 @@ body{
   /*border: solid red;*/
 }
 
-#corgiheader{
-  height: 60vh;
+#header{
+  width: 100vw;
+  height: auto;
 }
 
 .carousel{
