@@ -9,7 +9,7 @@ html, body{
 }
 
 body{
-  background-image: url('../images/Corgi_Logo.png');
+  background-image: url('../images/comb_Corgi.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -21,6 +21,7 @@ body{
 }
 
 .nav_Items{
+  color: black;
   font-weight: bold;
   font-size: 22px;
   text-decoration: none;
@@ -28,10 +29,11 @@ body{
 
 .nav_Link:hover{
   text-shadow: 0px 0px 5px #ffc600;
+  color: black;
 }
 
 .box{
-  border: solid red;
+  /*border: solid red;*/
 }
 
 #corgiheader{
@@ -48,8 +50,13 @@ body{
 
 .theme{
   background-color: #cff4fc;
+
 }
 
-#pricing{
+footer{
+  background-color: #cff4fc;
+}
 
+@media print{
+  .no_print{display:none;}
 }

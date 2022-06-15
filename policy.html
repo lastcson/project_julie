@@ -25,24 +25,24 @@
 
 <body>
 
-  <nav class="navbar navbar-default sticky-top">
+  <nav class="navbar navbar-default sticky-top no_print">
     <div class="container-fluid">
       <div class="navbar-header">
         <img src="images/IDEA2-removebg-preview.png" alt="" width="60" height="60">
       </div>
       <ul class="nav navbar-nav">
         <div class="d-flex flex-row">
-          <li><a style="color:black;" href="index.html" class="nav_Items nav_Link box mx-2">Home</a></li>
-          <li><a style="color:black;" href="index.html#jumptoabout" class="nav_Items nav_Link box mx-2">About</a></li>
-          <li><a style="color:black;" href="index.html#jumptopricing" class="nav_Items nav_Link box mx-2">Pricing</a></li>
-          <li><a style="color:black;" href="#" class="nav_Items box mx-2">Policy</a></li>
+          <li><a href="index.html" class="nav_Items nav_Link box mx-2">Home</a></li>
+          <li><a href="index.html" class="nav_Items nav_Link box mx-2">About</a></li>
+          <li><a href="index.html#jumptopricing" class="nav_Items nav_Link box mx-2">Pricing</a></li>
+          <li><a class="nav_Items box mx-2">Policy</a></li>
         </div>
       </ul>
     </div>
   </nav>
 
 
-  <div class="row justify-content-center" id="policyprint">
+  <div class="row justify-content-center">
     <div class="col-11">
       <h1 class="text-center py-5">Policy Agreement</h1>
       <p>
@@ -65,7 +65,7 @@
         [This fee is in addition to the groom fee, & your pet will be given Advantage or Frontline as a further deterrent]<br><br>
 
         Photos/Pictures:<br>
-        Photos, pictures, or videos may be taken of my pet before, during, or after grooming for use on Dog Darn Cute Grooming Website, Facebook, Twitter, or for any other <br><br>
+        Photos, pictures, or videos may be taken of my pet before, during, or after grooming for use on Dog Darn Cute Grooming Website, Facebook, Twitter, or for any other social media.<br><br>
 
         48 Hour Notice to Cancel Appointments'<br>
         We request your permission to obtain vaccination records (rabies, distemper, parvovirus disease) to ensure all vaccinations are current.<br>
@@ -96,9 +96,21 @@
     </div>
   </div>
 
-  <div>
-    <button onClick="print(Dog Darn Cute Grooming Policy Agreement.rtf)">Print this page</button>
+  <div class="row justify-content-center pb-5 no_print">
+    <div class="col-12 text-center">
+      <a class="btn theme" href="javascript:window.print()" role="button">Print this page</a>
+    </div>
   </div>
+
+  <section class="container-fluid theme no_print">
+    <div class="row pt-3 justify-content-between">
+      <div class="col-6">
+        <p class="ms-2">Hours: Mon - Fri 8:00am - 5:00pm</p>
+      </div>
+      <div class="col-6 me-0">
+        <p class="text-end">© 2022 All Rights Reserved, by <a href="https://www.sudobyte.com/" class="link" target="_blank">SudoByte Solutions</a></p>
+      </div>
+  </section>
 
 
   <script src="js/main.js"></script>
